@@ -1,0 +1,15 @@
+.dashed-circle {
+    background-image: url(../images/patterns/lrg-hash-dark.png);
+    border-radius: 50%;
+    bottom: 0;
+    display: inline-block;
+    height: 240px;
+    position: absolute;
+    right: 0;
+    top: -87px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 240px;
+    z-index: -1;
+}
