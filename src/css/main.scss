@@ -2,8 +2,8 @@
 ––––––––––––––––––––––––––––––––––––
    ██████╗ ██████╗ ██████╗ ███████╗
   ██╔════╝██╔═══██╗██╔══██╗██╔════╝
-  ██║     ██║   ██║██████╔╝█████╗  
-  ██║     ██║   ██║██╔══██╗██╔══╝  
+  ██║     ██║   ██║██████╔╝█████╗
+  ██║     ██║   ██║██╔══██╗██╔══╝
   ╚██████╗╚██████╔╝██║  ██║███████╗
    ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 ––––––––––––––––––––––––––––––––––––
@@ -20,17 +20,17 @@
 @import "atom/blockquote";
 @import "atom/link";
 @import "atom/code";
-@import "atom/hr";
+//@import "atom/hr";
 @import "atom/tag";
 @import "atom/select";
-@import "atom/underlined-link";
-@import "atom/special-button";
-@import "atom/parallax";
-@import "atom/dashed-circle";
+// @import "atom/underlined-link";
+// @import "atom/special-button";
+// @import "atom/parallax";
+// @import "atom/dashed-circle";
 
-@import "molecule/inclined";
-@import "molecule/form";
-@import "molecule/card";
+// @import "molecule/inclined";
+// @import "molecule/form";
+// @import "molecule/card";
 
 
 #app-container, #app-container>div, .screen-box  {
@@ -47,5 +47,5 @@
   .center {
     position:relative;
     margin: auto;
-  }  
+  }
 }

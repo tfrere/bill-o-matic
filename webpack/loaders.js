@@ -80,10 +80,6 @@ module.exports = [
         loader:  sassLoader
     },
     {
-        test: /\.(jpe?g|gif|png|pdf)$/,
-        loader: 'url-loader'
-    },
-    {
         test:   /\.woff(2)?(\?.*)?$/,
         loader: 'url-loader'
     },
